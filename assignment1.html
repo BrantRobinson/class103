@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Story Generator</title>
+
+    <link rel="stylesheet" href="./styles/assignment1_styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="page-title">Funny Story Generator</h1>
+    <main class="main-content">
+        <section class="form">
+            <form class="main-form">
+                <div class="form-item">
+                    <h2>Fill in the blanks</h2>
+                </div>
+                <div class="form-item">
+                    <label for="time">Time:</label>
+                    <input name="" id="time" type="time">
+                </div>
+                <div class="form-item">
+                    <label for="person">Person:</label>
+                    <input name="" id="person" type="text">
+                </div>
+                <div class="form-item">
+                    <label for="object">Object: </label>
+                    <input name="" id="object" type="text">
+                </div>
+                <div class="form-item">
+                    <label for="place">Place:</label>
+                    <input name="" id="place" type="text">
+                </div>
+                <div class="form-item">
+                    <label for="action">Action</label>
+                    <input name="" id="action" type="text">
+                </div>
+                <!-- need to use type="button" so the page doesn't refresh every time it's pushed  -->
+                <button type="button" onclick="generateStory()">Generate Story</button>
+            </form>
+        </section>
+        <section class="story">
+            <h2 class="story-title"></h2>
+            <p class="story-content"></p>
+        </section>
+    </main>
+    <footer>
+        <p>Change your inputs and click the "Generate Story" button to create a new version</p>
+    </footer>
+    
+
+    <script src="./scripts/assignmnet1_scripts.js"></script>
+</body>
+</html>
