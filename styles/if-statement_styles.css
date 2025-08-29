@@ -1,0 +1,26 @@
+.output-display {
+    background-color: lightgray;
+    padding: 2em;
+    margin: 2em;
+    max-width: 300px;
+}
+
+.cold {
+    color: white;
+    background-color: blue;
+}
+
+.normal {
+    color: white;
+    background-color: green;
+}
+
+.hot {
+    color: white;
+    background-color: red;
+}
+
+.hotter {
+    color: white;
+    background-color: purple;
+}

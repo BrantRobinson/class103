@@ -1,0 +1,48 @@
+body {
+    font-family: arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.game-container {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 30px auto;
+}
+
+.controls {
+    text-align: center;
+    padding: 1em;
+}
+
+.left-right {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.up-down {
+    padding: 1em;
+}
+
+#character {
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 80px;
+    top: 25px;
+    left: 100px;
+}

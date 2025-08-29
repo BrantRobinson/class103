@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./styles/game.css">
+</head>
+<body>
+    <h1>Move the character</h1>
+    <div class="game-container">
+        <div id="character"></div>
+    </div>
+    <div class="controls">
+        <div class="up-down"><button onclick="moveUp()">Up</button></div>
+        <div class="left-right">
+            <button onclick="moveLeft()">Left</button>
+            <button onclick="moveRight()">Right</button>
+        </div>
+        <div class="up-down"><button onclick="moveDown()">Down</button></div>
+    </div>
+    
+    <script src="./scripts/game.js"></script>
+</body>
+</html>

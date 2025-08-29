@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Celsius to Fahrenheit</title>
+
+    <link rel="stylesheet" href="./styles/assignment3_styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="images">
+            <img class="icons" src="./img/cloudy_1163661.png" alt="cloudy">
+            <img class="icons" src="./img/snow_1164908.png" alt="snow">
+            <img class="icons" src="./img/sun_4754187.png" alt="sun">
+        </div>
+        <h1>Temperature Converter</h1>
+    </header>
+
+    <div class="main-container">
+        <div class="main-content">
+            <form class="input-form">
+                <div class="form-content">
+                    <div class="form-text">
+                        <label for="temp">Enter Temperature: </label>
+                        <input type="number" required id="temp">
+                    </div>
+                    <div class="radio-buttons">
+                        <div class="unit">
+                            <input id="celsius" type="radio" name="units" value="celsius" checked>
+                            <label for="celsius">Celsius</label>
+                        </div>
+                        <div class="unit">
+                            <input id="fahrenheit" type="radio" name="units" value="fahrenheit">
+                            <label for="fahrenheit">Fahrenheit</label>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn" onclick="convertTemp()"></button>
+            </form>
+            <div class="display-results" id="js-display-conversion"></div>
+        </div>
+        <div class="thermometer-container">
+            <div class="f-scale scale">
+                <div class="f-scale1">-50</div>
+                <div class="f-scale2">-25</div>
+                <div class="f-scale3">0</div>
+                <div class="f-scale4">32</div>
+                <div class="f-scale5">50</div>
+                <div class="f-scale6">75</div>
+                <div class="f-scale7">100</div>
+                <div class="f-scale8">125</div>
+                <div class="f-scale9">150</div>
+                <div class="f-scale10">175</div>
+                <div class="f-scale11">212</div>
+                <div class="f-scale12">250</div>
+                <div class="f-scale13">&degF</div>
+            </div>
+            <div class="thermometer-glass">
+                <div class="mercury"></div>
+            </div>
+            <div class="c-scale scale">
+                <div class="c-scale1">-40</div>
+                <div class="c-scale2">-20</div>
+                <div class="c-scale3">0</div>
+                <div class="c-scale4">20</div>
+                <div class="c-scale5">40</div>
+                <div class="c-scale6">60</div>
+                <div class="c-scale7">80</div>
+                <div class="c-scale8">100</div>
+                <div class="c-scale9">120</div>
+                <div class="c-scale10">&degC</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/assignment3_scripts.js"></script>
+    
+</body>
+</html>
