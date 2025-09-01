@@ -67,3 +67,19 @@ function updateMercuryDisplay (temp, units, tempInput) {
         backgroundcolor.style.color = "white";
     }
 }
+let tableGenerated = 'no';
+function generateTable () {
+    if (tableGenerated == 'no'){
+        let tbody = document.getElementById("tbody");
+        for (let c=0; c<=100; c+=10) {
+            let f = (c * 9 / 5)+32;
+            tbody.innerHTML += `
+            <tr>
+            <td>${c.toFixed(2)}</td>
+            <td>${f.toFixed(2)}</td>
+            </tr>
+            `;
+        }
+        tableGenerated='yes';
+    }
+}

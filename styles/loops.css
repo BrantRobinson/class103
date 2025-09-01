@@ -1,0 +1,23 @@
+#thermo {
+    width: 30px;
+    height: 300px;
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+.level {
+    height: 8.5%;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: .2em 1em;
+    text-align: center;
+}
